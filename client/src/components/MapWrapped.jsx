@@ -138,6 +138,10 @@ const MapWithASearchBox = React.memo(({ getLocation }) => {
           position: location,
           icon: transparentMarker,
         }));
+<<<<<<< HEAD
+=======
+        // took new keyword off maybe breaks something //
+>>>>>>> b0fe317... [Feature] Build Weather Component container and add to Home.
         new MarkerClusterer(map, markers, {
           imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m',
           gridSize: 15,
